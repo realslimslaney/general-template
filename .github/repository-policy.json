@@ -1,0 +1,9 @@
+{
+  "default_branch": "main",
+  "version_policy": "release-please",
+  "check_command": [
+    "just",
+    "check"
+  ],
+  "check_timeout_seconds": 240
+}
