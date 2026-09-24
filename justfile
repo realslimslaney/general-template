@@ -9,7 +9,7 @@ default:
 tooling-test:
     {{python}} -m unittest discover -s tooling_tests -v
 
-# Check links, configuration, and the shared agent adapters.
+# Check links, configuration, and complete agent instructions and skills.
 docs-check:
     {{python}} scripts/check_repo.py
 
@@ -22,3 +22,11 @@ docs-build:
     quarto render docs
 
 check: tooling-test docs-check docs-build
+
+# Update complete client files after editing AGENTS.md or a shared skill.
+agents-sync:
+    {{python}} scripts/sync_agent_instructions.py
+
+# Detect missing or stale client instruction and skill files.
+agents-check:
+    {{python}} scripts/sync_agent_instructions.py --check
