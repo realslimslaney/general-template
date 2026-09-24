@@ -5,7 +5,7 @@ project:
     - index.qmd
     - "**/*.md"
 website:
-  title: "Bare Bones Template"
+  title: "General Template"
   search: true
   sidebar:
     style: docked

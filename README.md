@@ -1,9 +1,15 @@
-# Bare Bones Template
+# General Template
 
 A language-neutral starting point with just, Quarto, and reusable Claude/Codex workflows.
 
 Use GitHub's **Use this template** button to create a new repository, then clone it.
 Start on a feature branch: `git switch -c chore/customize-template`.
+
+## Get started
+
+Follow the [step-by-step first-project tutorial](docs/tutorials/first-project.md)
+to create your repository, install the tools, run the checks, and open your first PR.
+For an existing copy, use the [customization how-to](docs/how-to/customize.md).
 
 ## Install the tools
 

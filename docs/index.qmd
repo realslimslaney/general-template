@@ -1,5 +1,5 @@
 ---
-title: "Bare Bones Template"
+title: "General Template"
 ---
 
 Start with the [first-project tutorial](tutorials/first-project.md).
